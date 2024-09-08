@@ -1,7 +1,6 @@
 #!/bin/bash
-apt-get update
-apt-get install nodejs-legacy -y
-apt-get install npm  -y
-npm install pm2 -g
-rm -rf /home/ec2-user/my-app1
-mkdir /home/ec2-user/my-app1
+sudo yum update -y
+sudo yum install -y nodejs npm
+sudo npm install pm2 -g
+sudo rm -rf /home/ec2-user/my-app1
+sudo mkdir /home/ec2-user/my-app1
