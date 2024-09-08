@@ -5,7 +5,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-    res.status(200).send({ message: 'Hello, World!' });
+    res.status(200).send({ message: 'Hello, World from Joe!' });
 });
 
 
